@@ -1,0 +1,77 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color:black;
+    background-image:url("https://media.istockphoto.com/id/1068840354/es/vector/vector-ilustraci%C3%B3n-de-gris-p%C3%A1lido-grungy-gradiente-vac%C3%ADo-fondo-liso.jpg?s=612x612&w=0&k=20&c=Wfv6FbBly6eW1rXz3OEFQ-rIrBNHjlHVP5qneWQ3joQ=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:black;
+    color:floralwhite;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.custom-title {
+    font-style: oblique;
+    display: inline-block;
+    text-align: center;
+}
+
+.mi-parrafo {
+    font-size: 22px;
+    text-align: center;
+}
+
+.mi-parrafo-2 {
+    font-size: 50px;
+    text-align: center;
+}
+.mi-etiqueta {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botones-en-linea{
+    text-align: center;
+}
+.boton-con-imagen img {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+
+/*definir la animacion*/
+@keyframes mover {
+    0% { transform: translateX(0);}
+    50% {transform: translateX(100px);}
+    100% {transform: translateX(0);}
+}
+ 
+.etiqueta-animada {
+    animation:mover 3s linear infinite;
+}

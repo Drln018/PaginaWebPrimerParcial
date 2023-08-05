@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .imagen-tamano {
+    width: 500px; /* Modifica el ancho de la imagen */
+    height: auto;
+  }
+
+  .imagen-modificada {
+    width: 250px; /* Modifica el ancho de la imagen */
+    height: auto; /* El alto se ajustará automáticamente para mantener la proporción */
+    animation: moverImagen 10s linear infinite; /* Aplic*/
+  }
+
+  @keyframes moverImagen {
+    0% {
+      transform: translateX(0); /* Posición inicial: no se desplaza horizontalmente */
+    }
+    100% {
+      transform: translateX(100%); /* Posición final: desplazamiento hacia la izquierda (puedes ajustar la cantidad) */
+    }
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
